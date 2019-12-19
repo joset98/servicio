@@ -1,0 +1,13 @@
+Agregado nuevo controlador UserController
+
+Configurado el Routes
+
+resources/views tiene una nueva carpeta llamada menu. Contiene de momento la plantilla user_list.blade.php
+Lo hice con la idea de agregar las plantillas del meni lateral
+
+config/adminlte.php
+Linea 132 se definio la ruta lista Usuarios
+
+config/app.php
+Se agrego esta linea de codigo
+'asset_url' => env('ASSET_URL', (php_uname("n") == "homestead")? "": "public/")

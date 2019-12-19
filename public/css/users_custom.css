@@ -1,0 +1,5 @@
+.toolbar-wrap{
+    display: flex; 
+    flex-direction: row-reverse;
+    padding-bottom:10px;
+}

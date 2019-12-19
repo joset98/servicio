@@ -1,0 +1,31 @@
+
+
+/*Botones de acciones datatables*/
+.botonera-table {
+    text-align: center;
+}
+
+.botonera-table button:first-child {
+    margin-right: 5px;
+}
+
+.botonera-table button:last-child {
+    margin-left: 2px;
+}
+
+/*Listado de instituciones*/
+#institutions {
+    margin-top: 35px;
+}
+
+td > * {
+    vertical-align : middle;
+}
+
+.pace .pace-activity:before {
+     border-style: unset; 
+}
+.pace .pace-activity {
+    left: 0px;
+    top: 0px;
+}
